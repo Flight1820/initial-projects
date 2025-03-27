@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html lang="fa">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"content="width=device-width, initial-scale=1.0">
-        <title> my first project</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه حرفه‌ای HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            text-align: center;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>صفحه من</h1>
+        <nav>
+            <a href="#">خانه</a>
+            <a href="#">درباره ما</a>
+            <a href="#">تماس با ما</a>
+        </nav>
+    </header>
 
-    </head>
-    <body>
-        <h1>بسم الله  الرحمن الرحیم
-            لله  ما فی السموات والارض
-            یسبح له ما فی السموات و الارض
+    <main>
+        <h2>به صفحه‌ی حرفه‌ای HTML خوش آمدید!</h2>
+        <p>این یک نمونه ساده از صفحه HTML با ساختار استاندارد است.</p>
+    </main>
 
-        </h1>
-        <h1>
-            <ul>
-                <li>آب</li>
-                <li>دمنوش</li>
-                <li>چای</li>
-            </ul>
-        </h1>
-        <h2> ما بکم من نعمه فمن الله</h2>
-        <br>
-        <ol>
-            <li>step one</li>
-            <li>step 2</li>
-            <li>step 3</li>
-
-        </ol>
-
-        <p>اللهم ما بنا من نعمنه فمنک لا اله الا انت سبحنک انی کنت من الظالمین
-            
-        استغفرالل و اسله من فضله </p>
-        <form action="">
-            <lable for="name">اسمت چیه؟
-                <input type="text" id="name" name="name">
-                <button type="submit">برای ارسال کلیک کن</button>
-            </lable>
-        </form>
-        <a href="http://www.google.com" target="_blank">جستجو در گوگل</a>
-        <img src="source/1.webp" alt="hi "width="300">
-    </body>
+    <footer>
+        <p>تماس با ما: example@email.com | تلفن: 123456789</p>
+    </footer>
+</body>
 </html>
